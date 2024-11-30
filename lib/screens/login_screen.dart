@@ -3,6 +3,7 @@ import 'package:account_management_app/utils/constants.dart';
 import 'package:account_management_app/widgets/app_textfield.dart';
 import 'package:account_management_app/widgets/extensions.dart';
 import 'package:account_management_app/widgets/gap.dart';
+import 'package:email_validator/email_validator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
