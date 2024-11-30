@@ -24,7 +24,7 @@ class UserModel extends Equatable {
       Constants.KEY_FIRST_NAME: firstName,
       Constants.KEY_LAST_NAME: lastName,
       Constants.KEY_EMAIL: email,
-      Constants.KEY_USER: mobile,
+      Constants.KEY_MOBILE: mobile,
       Constants.KEY_PROFILE_PHOTO_URL: profilePhotoUrl,
     };
   }
