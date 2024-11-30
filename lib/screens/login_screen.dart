@@ -46,6 +46,10 @@ class _LoginScreenState extends State<LoginScreen> {
                         controller: _emailController,
                         label: 'Email',
                         keyboardType: TextInputType.emailAddress,
+                        validator: (value) =>
+                              !EmailValidator.validate(value ?? '')
+                                  ? 'Invalid email'
+                                  : null,
                       ),
                       const Gap(16),
                       AppTextfield(
